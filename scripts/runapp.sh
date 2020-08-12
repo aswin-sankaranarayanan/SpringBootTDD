@@ -1,4 +1,3 @@
-sudo su
 echo 'Starting my app'
 rm -rf '/home/ec2-user/myapp'
 mkdir '/home/ec2-user/myapp'
