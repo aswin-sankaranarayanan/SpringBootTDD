@@ -9,4 +9,4 @@ permissions:
 hooks:
   ApplicationStart:
     - location: scripts/runapp.sh
-      runas: root
+      runas: ec2-user
