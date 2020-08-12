@@ -3,6 +3,9 @@ os: linux
 files:
   - source: ./
     destination: /home/ec2-user/myapp
+permissions: 
+  - object: /home/ec2-user/myapp
+    mode: 777
 hooks:
   ApplicationStart:
     - location: scripts/runapp.sh
