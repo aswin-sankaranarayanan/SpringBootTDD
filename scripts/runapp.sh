@@ -1,4 +1,5 @@
 echo 'Starting my app'
+pkill -f 'java -jar'
 rm -rf '/home/ec2-user/myapp'
 mkdir '/home/ec2-user/myapp'
 cd '/home/ec2-user/myapp'
