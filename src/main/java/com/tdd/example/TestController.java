@@ -8,6 +8,6 @@ public class TestController {
 
 	@GetMapping("/test")
 	public String doTest() {
-		return "CICD In Progess";
+		return "CICD Completed!";
 	}
 }
